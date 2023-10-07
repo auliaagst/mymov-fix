@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMovieApp</title>
+</head>
+<body>
+    <header class="header">
+        <div class="nav">
+            <img src="img/logo.png" alt="MyMov Logo">
+            <a href="#popularMovies">Populer</a>
+            <a href="#latestMovies">Terbaru</a>
+            <input type="text" id="search" placeholder="Cari film...">
+        </div>
+        <h2>Cari Film Favoritmu!</h2>
+    </header>
+    <div class="container">
+        <h2 id="popularMoviesTitle">Film Terpopuler </h2>
+        <div id="popularMovies" class="card-container"></div>
+    </div>
+    <div class="container">
+        <h2 id="latestMoviesTitle">Film Terbaru</h2>
+        <div id="latestMovies" class="card-container"></div>
+    </div>
+    <div id="searchResults" class="movie-container"></div>
+</body>
+<my-footer></my-footer>
+</html>
